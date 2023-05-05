@@ -1,0 +1,274 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: #111827;
+    height: 100%vh;
+    margin: 0;
+    display: block;
+    /* overflow: hidden; */
+}
+
+/* Nav Bar */
+
+nav{
+    display: block;
+    /* margin-inline: auto; */
+}
+
+.navbar-main{
+    display: flex;
+    border: 0 solid rgba(245, 245, 245, 0.096);
+    box-sizing: border-box;
+    border-bottom-width: 0.5px ;
+    align-items: center;
+    font-weight: bold;
+    /* justify-content: center; */
+}
+
+.logo{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 67px;
+    margin-right: 637px;
+    width: 166px;
+    height: 48px;
+    color: antiquewhite;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flex-main{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-content{
+    justify-content: space-between;
+    display: flex;
+    flex-basis: 904px;
+}
+
+.nav-menue ul{
+    margin: 0;
+    margin-right: 58px;
+    padding: 0;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    font-size: small;
+    list-style:none
+}
+
+.nav-menue li{
+    display: inline-block;
+}
+
+.nav-menue a{
+    color: antiquewhite;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-menue a:hover{
+    text-decoration: overline;
+    color:aquamarine;
+}
+
+
+
+/* Page Holder */
+
+.pagecontainer{
+    margin-top: 56px;
+    margin-bottom: 56px;
+    padding-left: 34px;
+    padding-right: 34px;
+    max-width: 1280px;
+    max-height: 4234px;
+    align-items: center;
+    justify-content: center;
+}
+
+.max-width{
+    /* display: flex; */
+    padding-left:224px;
+    padding-right: 224px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    max-height: 4082px;
+    align-content: center;
+}
+
+.center-logo{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    /* display:flex ; */
+    align-items: center;
+    /* margin-left: 590px; */
+    /* margin-right: 590px; */
+    transition: 0.5s;
+}
+
+.center-logo:hover{
+    transform: scale(1.2);
+}
+
+.logo-text{
+    color: white;
+    /* display:flex; */
+}
+
+.text-content{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: rgb(199, 199, 199);
+    font-size: 16px;
+}
+.text-content h3{
+    margin-bottom: 9px;
+    font-size: 18px;
+}
+.text-content p{
+    line-height: 1.8;
+}
+
+.box1{
+    color: white;
+    font-size: 18px;
+    border: 1.5px solid #3d485e;
+    background-color:#3b425062;
+    border-radius:10px ;
+    height: 381px;
+}
+
+.box1 h5{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    margin-left: 24px;
+}
+
+.box2{
+    margin-top: 48px;
+    margin-left: 16px;
+    display:table-cell;
+}
+
+.box2 img{
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+    margin-left: 16px;
+}
+
+.boxmini{
+    width: 100%vh;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: rgba(255, 255, 255, 0.815);
+    display: flex;
+    align-items: center;
+    transition: 90ms;
+}
+
+.boxmini:hover{
+    background-color: rgba(255, 255, 255, 0.082);
+    border-radius: 8px;
+}
+
+.boxmain{
+    border-bottom:1px solid rgba(255, 255, 255, 0.205);
+}
+
+/* Footer */
+footer{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    padding-block: 70px;
+    color: rgba(255, 255, 255, 0.815);
+    height: 300px;
+    font-size: 14px;
+}
+
+.company-logo{
+    display: flex;
+    height: 48px;
+    width: 166px;
+}
+
+.social-logo{
+    display: flex;
+    margin-top:26px ;
+    /* gap: 24px; */
+}
+.social-logo a:hover{
+    filter: invert(5);
+}
+
+.text{
+    margin-top: 24px;
+}
+
+.logo-main company-logo{
+    width: 166px;
+    height: 48px;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+    display: flex;
+    text-decoration: none;
+    width: 176px;
+}
+
+.link-column a{
+    color: rgba(255, 255, 255, 0.699);
+    text-decoration: none;
+    transition: 50ms;
+}
+
+.link-column a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.bottom{
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 12px;
+    display: flex;
+    padding-top: 33px;
+    margin-top: 150px;
+    height: 53px;
+    border-top: 1px solid rgba(255, 255, 255, 0.205);
+}
